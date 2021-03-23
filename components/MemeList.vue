@@ -2,8 +2,14 @@
   <div class="mlWrapper">
     <meme :image="'OH-Wahlkampf.jpg'" :text="'ÖH-Wahlkampf (wichtige Vertretungsarbeit) statt Covid-Maßnahmen'" />
 
-    <!-- Neue Memes hier unter diesem Kommentar einfügen! 
-    Beim Text wird automatisch ein 'Erreicht: ' hinzugefügt -->
+    <!-- 
+    
+    Neue Memes hier unter diesem Kommentar einfügen! 
+    Beim Text wird automatisch ein 'Erreicht: ' davor eingefügt 
+
+    Wie geht das? siehe bereits bestehende memes...
+    
+    -->
 
     <meme :image="'RIP_Steuerrecht.png'" :text="'Steuerrecht beseitigt'" />
   </div>
