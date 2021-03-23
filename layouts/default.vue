@@ -18,10 +18,10 @@
           >
         </div>
         <div class="nav">
-          <NuxtLink to="/">MEMES</NuxtLink>
+          <NuxtLink to="/">ERREICHT!</NuxtLink>
         </div>
         <div class="nav">
-          <NuxtLink to="/card">UNITEICH.CARD</NuxtLink>
+          <NuxtLink to="/card">UNITEICHT.CARD</NuxtLink>
         </div>
         <div class="nav">
           <a href="https://anastory.tumblr.com/" target="_blank">BLOG</a>
