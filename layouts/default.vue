@@ -1,8 +1,10 @@
 <template>
   <div class="outer">
     <h3>
-      ACHTUNG: Diese Seite ist NICHT von der AktionsGemeinschaft-Linz! (Man
-      beachte das 't' zwischen 'uniteich' und '.at')
+      ACHTUNG: Es handelt sich bei dieser Seite <i>NICHT</i> um den
+      <a href="https://uniteich.at" target="_blank">Webauftritt der <i>AktionsGemeinschaft-Linz</i></a>! <br />
+      Die haben uns einfach abgekupfert, jegliche Ähnlichkeiten sind also rein
+      zufällig. Viel mehr handelt es sich hier um wichtige Vertretungsarbeit!
     </h3>
     <div class="global_wrapper">
       <div class="sidebar">

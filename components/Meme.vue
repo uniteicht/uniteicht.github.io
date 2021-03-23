@@ -1,7 +1,7 @@
 <template>
   <div class="meme">
-    <img :src="'/meme/' + image" />
-    <h3>{{ text }}</h3>
+    <img class="meme-img" :src="'/meme/' + image" />
+    <h3 class="meme-desc">Erreicht: {{ text }}</h3>
   </div>
 </template>
 
@@ -25,9 +25,12 @@ export default {
 .meme {
   width: 80%;
   border: 1px solid;
+  text-align: center;
+  margin-bottom: 20px;
 }
 
-img {
-  max-height: 500px;
+.meme-img {
+  max-width: 100%;
+  max-height: 700px;
 }
 </style>

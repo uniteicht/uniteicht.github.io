@@ -9,7 +9,15 @@
 </style>
 
 <script>
-export default {};
+export default {
+  middleware({ redirect }) {
+    const ls = window.localStorage;
+    if (!ls.getItem("first")) {
+      ls.setItem("first", false);
+      return redirect("/about");
+    }
+  },
+};
 </script>
 
 <style>
