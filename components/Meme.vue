@@ -23,7 +23,7 @@ export default {
 
 <style>
 .meme {
-  width: 80%;
+  width: 100%;
   border: 1px solid;
   text-align: center;
   margin-bottom: 20px;
@@ -32,5 +32,6 @@ export default {
 .meme-img {
   max-width: 100%;
   max-height: 700px;
+  padding-bottom: 15px;
 }
 </style>

@@ -8,7 +8,7 @@
     </h3>
     <div class="global_wrapper">
       <div class="sidebar">
-        <img id="logo" src="favicon.ico" style="width: 250px" />
+        <img id="logo" src="/favicon.ico" style="width: 250px" />
         <div class="nav">
           <NuxtLink to="/about">ÜBER UNS</NuxtLink>
         </div>
