@@ -3,7 +3,6 @@
     "version": "1.0.0",
     "private": true,
     "scripts": {
-        "go": "npm run commit && npm run generate && npm run deploy",
         "commit": "git add . && git commit -m \"sinnvolle Vertretungsarbeit\" && git push",
         "dev": "nuxt",
         "build": "nuxt build",

@@ -1,6 +1,9 @@
 <template>
   <div class="mlWrapper">
-    <meme :image="'OH-Wahlkampf.jpg'" :text="'ÖH-Wahlkampf (wichtige Vertretungsarbeit) statt Covid-Maßnahmen'" />
+    <meme
+      :image="'OH-Wahlkampf.jpg'"
+      :text="'ÖH-Wahlkampf (wichtige Vertretungsarbeit) statt Covid-Maßnahmen'"
+    />
 
     <!-- 
     
@@ -10,8 +13,22 @@
     Wie geht das? siehe bereits bestehende memes...
     
     -->
-
-    <meme :image="'FroheOsternTAG.png'" :text="'Im Zuge von sinnvoller Vertretungsarbeit Oster-Flyer verteilt'" />
+    <meme
+      :image="'VielUmgesetzt.png'"
+      :text="'[@blondie3: hier bilduntershift einfügen]'"
+    />
+    <meme
+      :image="'Punschrezept.png'"
+      :text="'Euer TAG wünscht euch viel Spaß beim stilvollen Genießen'"
+    />
+    <meme
+      :image="'0NeueKlausuren.png'"
+      :text="'Endlich wieder befriedigende Credits!'"
+    />
+    <meme
+      :image="'FroheOsternTAG.png'"
+      :text="'Im Zuge von sinnvoller Vertretungsarbeit Oster-Flyer verteilt'"
+    />
     <meme :image="'RIP_Steuerrecht.png'" :text="'Steuerrecht beseitigt'" />
   </div>
 </template>
