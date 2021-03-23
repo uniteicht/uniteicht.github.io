@@ -63,7 +63,7 @@ body,
 .center {
   height: 100%;
   float: left;
-  width: 80%;
+  width: 70%;
   padding-top: 100px;
   padding-left: 200px;
 }

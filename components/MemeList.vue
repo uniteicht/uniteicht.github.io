@@ -11,6 +11,7 @@
     
     -->
 
+    <meme :image="'FroheOsternTAG.png'" :text="'Im Zuge von sinnvoller Vertretungsarbeit Oster-Flyer verteilt'" />
     <meme :image="'RIP_Steuerrecht.png'" :text="'Steuerrecht beseitigt'" />
   </div>
 </template>
