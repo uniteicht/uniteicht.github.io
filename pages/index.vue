@@ -1,6 +1,7 @@
 <template>
   <div class="wrapper">
     <h1>FÜR DICH ERREICHT</h1>
+    <MemeList />
   </div>
 </template>
 

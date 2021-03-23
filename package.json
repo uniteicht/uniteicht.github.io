@@ -4,7 +4,7 @@
     "private": true,
     "scripts": {
         "go": "npm run commit && npm run generate && npm run deploy",
-        "commit": "git commit -a -m \"sinnvolle Vertreterarbeit\" && git push",
+        "commit": "git commit . -m \"sinnvolle Vertreterarbeit\" && git push",
         "dev": "nuxt",
         "build": "nuxt build",
         "start": "nuxt start",
