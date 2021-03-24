@@ -29,9 +29,21 @@ export default {
   margin-bottom: 20px;
 }
 
+.meme {
+ -webkit-transition: -webkit-transform 0.4s ease-in-out;
+  transition: -webkit-transform 0.4s ease-in-out;
+  transition: transform 0.4s ease-in-out;
+  transition: transform 0.4s ease-in-out, -webkit-transform 0.4s ease-in-out;
+}
+
 .meme-img {
   max-width: 100%;
   max-height: 700px;
   padding-bottom: 15px;
+}
+
+.meme:hover {
+  -webkit-transform: scale(1.05);
+  transform: scale(1.05);
 }
 </style>
