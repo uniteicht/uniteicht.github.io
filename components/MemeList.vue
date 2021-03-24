@@ -22,6 +22,10 @@
       :text="'Euer TAG wünscht euch viel Spaß beim stilvollen Genießen'"
     />
     <meme
+      :image="'uniteicht.png'"
+      :text="'lol'"
+    />
+    <meme
       :image="'0NeueKlausuren.png'"
       :text="'Endlich wieder befriedigende Credits!'"
     />

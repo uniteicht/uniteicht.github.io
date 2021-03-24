@@ -2,9 +2,12 @@
   <div class="outer">
     <h3>
       ACHTUNG: Es handelt sich bei dieser Seite <i>NICHT</i> um den
-      <a href="https://uniteich.at" target="_blank">Webauftritt der <i>AktionsGemeinschaft-Linz</i></a>! <br />
+      <a href="https://uniteich.at" target="_blank"
+        ><img class="icon" src="/img/external-link-symbol.svg" />Webauftritt der <i>AktionsGemeinschaft-Linz</i></a
+      >! <br />
       Die haben uns einfach abgekupfert, jegliche Ähnlichkeiten sind also rein
-      zufällig. Viel mehr handelt es sich hier um wichtige Vertretungsarbeit!
+      zufällig. Viel mehr handelt es sich hier um wichtige
+      Vertretungsarbeit!!1einself
     </h3>
     <div class="global_wrapper">
       <div class="sidebar">
@@ -16,7 +19,7 @@
           <a
             href="https://github.com/uniteicht/uniteicht.github.io"
             target="_blank"
-            >MITMACHEN</a
+            ><img class="icon" src="/img/external-link-symbol.svg" />MITMACHEN</a
           >
         </div>
         <div class="nav">
@@ -26,7 +29,12 @@
           <NuxtLink to="/card">UNITEICHT.CARD</NuxtLink>
         </div>
         <div class="nav">
-          <a href="https://anastory.tumblr.com/" target="_blank">BLOG</a>
+          <a href="https://anastory.tumblr.com/" target="_blank"><img class="icon" src="/img/external-link-symbol.svg" />BLOG</a>
+        </div>
+
+        <div class="imprint">
+          <NuxtLink to="/imprint">Credits</NuxtLink>
+          <NuxtLink to="/imprint">Impressum</NuxtLink>
         </div>
       </div>
       <div class="center">
@@ -45,6 +53,12 @@ body,
   height: 100%;
 }
 
+.icon {
+  height: 1rem;
+  margin-top: -8px;
+  margin-right: 5px;
+}
+
 .global_wrapper {
   height: 100%;
   background-color: #f26f22;
@@ -55,6 +69,7 @@ body,
 .sidebar {
   background-color: #ededed;
   width: 20%;
+  min-width: 360px;
   height: 100%;
   float: left;
   padding: 10px;
@@ -75,6 +90,13 @@ body,
   padding-right: 20px;
   margin: 10px;
   float: right;
+  clear: both;
+}
+
+.imprint {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
 }
 
 a {
