@@ -90,6 +90,7 @@ body,
   padding-right: 20px;
   margin: 10px;
   float: right;
+  clear: both;
 }
 
 .imprint {
