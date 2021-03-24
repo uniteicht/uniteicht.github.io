@@ -11,6 +11,9 @@
       E-Mail:
       <a href="mailto:hario.mofer@uniteicht.at">hario.mofer@uniteicht.at</a>
     </p>
+    <p>
+      Die Projektseite findest du unter <a href="https://github.com/uniteicht/uniteicht.github.io" target="_blank"><img class="icon" src="/img/external-link-symbol.svg" />https://github.com/uniteicht/uniteicht.github.io</a>.
+    </p>
 
     <h2>Credits</h2>
     <p>
@@ -19,7 +22,15 @@
         >Dave Gandy</a
       >
       from
-      <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
+      <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a><br/>  
+      Vielen Dank an Alle, die bereits an ihrer kreativen Ader geritzt, und so viel Herzblut in dieses Projekt gegossen haben.
+      
+      <!-- 
+        Erwähnung bitte hier über diesem Kommentar einfügen.
+        Dein Github Benutzername muss mit dem Account übereinstimmen, der den Pull-Request erstellt hat.
+        Beispiel:
+        [M. Muster](github.com/dein-github-benutzername)
+       -->
     </p>
 
     <h2>Webdesign</h2>
