@@ -15,10 +15,7 @@
       Details und die Entstehungsgeschichte zu dieser Website findest du auf der
       Projektseite unter
       <a href="https://github.com/uniteicht/uniteicht.github.io" target="_blank"
-        ><img
-          class="icon"
-          src="/img/external-link-symbol.svg"
-        />https://github.com/uniteicht/uniteicht.github.io</a
+        >https://github.com/uniteicht/uniteicht.github.io</a
       >.
     </p>
 
@@ -41,6 +38,11 @@
       from
       <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a
       ><br />
+
+      Other icons are from
+      <a href="https://fontawesome.com" target="_blank">fontawesome.com</a
+      ><br />
+      <br />
 
       Vielen Dank an Alle, die bereits an ihrer kreativen Ader geritzt, und so
       viel Herzblut in dieses Projekt gegossen haben.

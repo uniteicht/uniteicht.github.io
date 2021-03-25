@@ -3,7 +3,7 @@
     <h3>
       ACHTUNG: Es handelt sich bei dieser Seite <i>NICHT</i> um den
       <a href="https://uniteich.at" target="_blank"
-        ><img class="icon" src="/img/external-link-symbol.svg" />Webauftritt der <i>AktionsGemeinschaft-Linz</i></a
+        >Webauftritt der <i>AktionsGemeinschaft-Linz</i> <i class="fas fa-external-link-alt"></i></a
       >! <br />
       Die haben uns einfach abgekupfert, jegliche Ähnlichkeiten sind also rein
       zufällig. Viel mehr handelt es sich hier um wichtige
@@ -19,7 +19,7 @@
           <a
             href="https://github.com/uniteicht/uniteicht.github.io"
             target="_blank"
-            ><img class="icon" src="/img/external-link-symbol.svg" />MITMACHEN</a
+            >MITMACHEN <i class="fas fa-external-link-alt"></i></a
           >
         </div>
         <div class="nav">
@@ -29,10 +29,13 @@
           <NuxtLink to="/card">UNITEICHT.CARD</NuxtLink>
         </div>
         <div class="nav">
-          <a href="https://anastory.tumblr.com/" target="_blank"><img class="icon" src="/img/external-link-symbol.svg" />BLOG</a>
+          <a href="https://anastory.tumblr.com/" target="_blank">BLOG <i class="fas fa-external-link-alt"></i></a>
         </div>
 
         <div class="imprint">
+          <div class="wr-social">
+            <a href="https://www.instagram.com/tag.jku.uniteicht/" target="_blank"><i class="fab fa-instagram social"></i></a>
+          </div>
           <NuxtLink to="/imprint">Credits</NuxtLink>
           <NuxtLink to="/imprint">Impressum</NuxtLink>
         </div>
@@ -51,6 +54,16 @@ body,
 #__layout,
 #__nuxt {
   height: 100%;
+}
+
+.wr-social {
+  width: 100%;
+  text-align: right;
+}
+
+.social {
+  font-weight: 400;
+  font-size: 4em;
 }
 
 .icon {
@@ -97,6 +110,8 @@ body,
   position: absolute;
   bottom: 10px;
   left: 10px;
+  width: 18%;
+  min-width: 340px;
 }
 
 a {
