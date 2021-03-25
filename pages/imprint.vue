@@ -12,7 +12,8 @@
       <a href="mailto:hario.mofer@uniteicht.at">hario.mofer@uniteicht.at</a>
     </p>
     <p>
-      Die Projektseite findest du unter
+      Details und die Entstehungsgeschichte zu dieser Website findest du auf der
+      Projektseite unter
       <a href="https://github.com/uniteicht/uniteicht.github.io" target="_blank"
         ><img
           class="icon"
