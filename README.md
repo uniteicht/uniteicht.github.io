@@ -3,13 +3,21 @@
 Seite ist erreichbar unter [https://uniteicht.at](https://uniteicht.at)
 
 ## Du willst auch sinnvolle Vertretungsarbeit leisten?
-1. Projekt forken und herunterladen
+### Memes erstellen
 1. Kreativ werden! (Nutze bei Bedarf auch die Vorlagen im templates Ordner als Inspiration)
 1. Einreichen: Mail mit Meme im Anhang an hario.mofer@uniteicht.at senden
 1. ???
 1. Profit!
 
-Wenn du dafür in den Credits erwähnt werden willst, kannst du dich direkt bei den Credits in der Datei /pages/imprint.vue eintragen. Das dann aber bitte im Pull-Request anmerken!
+Wenn du dafür in den Credits erwähnt werden willst bitte in der Mail anmerken.
+
+### Alternativ: Die Website verbessern/ausbauen/lustiger machen
+1. Projekt forken und herunterladen, ```npm i```, ```npm run dev```
+1. Kreativ werden!
+1. Befehl ```npm run commit``` ausführen. Dieser kombiniert git add, git commit und git push mit der einzig korrekten Commit-Message
+1. Pull-Request auf github erstellen
+1. ???
+1. Profit!
 
 ---
 
