@@ -36,15 +36,24 @@ export default {};
 }
 
 .wrapper {
-  width: 80%;
-  height: 100%;
   margin: 0;
-  padding: 0;
   padding-left: 10px;
-  font-size: x-large;
+  padding-right: 10px;
 }
 
 h1 {
   color: black;
 }
+
+@media only screen and (min-width: 768px) {
+  .wrapper {
+    width: 80%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    padding-left: 10px;
+    font-size: x-large;
+  }
+}
+
 </style>
