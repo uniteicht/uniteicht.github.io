@@ -25,13 +25,6 @@
       <br/>
       Profilnamen sind von <a href="https://de.fakenamegenerator.com">https://de.fakenamegenerator.com</a>
       <br/>
-      Icon (<img class="icon" src="/img/external-link-symbol.svg" />) made by
-      <a href="https://www.flaticon.com/authors/dave-gandy" title="Dave Gandy"
-        >Dave Gandy</a
-      >
-      from
-      <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a
-      ><br />
 
       Icon (<img class="icon" src="/img/up-arrow.svg" />) made by
       <a
