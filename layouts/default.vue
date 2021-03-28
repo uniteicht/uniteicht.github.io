@@ -34,8 +34,14 @@
 
         <div class="imprint">
           <div class="wr-social">
+            <a href="https://onlyfans.com/u128981358" target="_blank"><img
+              src="/img/OnlyFans_Social_Icon_Rounded_Blue.svg" class="social onlyfans-logo" /></a>
+            <a href="https://anastory.tumblr.com/" target="_blank"><i
+               class="fab fa-tumblr social"></i></a>
             <a href="https://www.instagram.com/tag.jku.uniteicht/" target="_blank"><i
               class="fab fa-instagram social"></i></a>
+             
+              
           </div>
           <NuxtLink to="/imprint">Credits</NuxtLink>
           <NuxtLink to="/imprint">Impressum</NuxtLink>
@@ -61,6 +67,11 @@ body,
 .social {
   font-weight: 400;
   font-size: 4em;
+}
+
+.onlyfans-logo {
+  width: 1em;
+  height: 1em;
 }
 
 a {
@@ -120,6 +131,8 @@ a:hover {
 
 .imprint a {
   display: block;
+  float: left;
+  margin: 5px;
 }
 
 #logo {
