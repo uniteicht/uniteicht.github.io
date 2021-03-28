@@ -1,51 +1,62 @@
-const hmCommentEntries = [
-    {
+const hmCommentEntries = [{
         name: "Hario Mofer",
-        img: "/img/profilepic.png",
+        img: "/img/Hario_Mofer.png",
         text: "Das hab ICH aber gut gemacht.",
     },
     {
         name: "Hario Mofer",
-        img: "/img/profilepic.png",
+        img: "/img/Hario_Mofer.png",
         text: "Gute arbeit ICH.",
     },
     {
         name: "Hario Mofer",
-        img: "/img/profilepic.png",
+        img: "/img/Hario_Mofer.png",
         text: "ICH bin immer wieder von mir überzeugt.",
     },
 ];
 
-const commentEntries = [
-    {
-        name: "Not a bot 1",
-        img: "/img/profilepic.png",
-        text:
-            "Bla bla bla bla bla bla bla bla bla ICH bla bla bla bla. Bla bla bla bla bla bla bla bla bla ICH bla bla bla bla.",
+/*
+Random name generator: https://de.fakenamegenerator.com/gen-random-gr-as.php
+Profile pictures by https://generated.photos/
+*/
+const commentEntries = [{
+        name: "Juliane Bumgarner",
+        img: "/img/profilepic1.png",
+        text: "Großartig gedichtet😍",
+    }, {
+        name: "Ulrike Herz",
+        img: "/img/profilepic2.png",
+        text: "So gehörts! 🙌",
     },
     {
-        name: "Not a bot 2",
-        img: "/img/profilepic.png",
-        text:
-            "Bla bla bla bla bla bla bla bla bla ICH bla bla bla bla. Bla bla bla bla bla bla bla bla bla ICH bla bla bla bla.",
+        name: "Mario König",
+        img: "/img/profilepic3.jpg",
+        text: "Richtig so! 💪",
     },
     {
-        name: "Not a bot 3",
-        img: "/img/profilepic.png",
-        text:
-            "Bla bla bla bla bla bla bla bla bla ICH bla bla bla bla. Bla bla bla bla bla bla bla bla bla ICH bla bla bla bla.",
+        name: "Sophie Pfaff",
+        img: "/img/profilepic4.jpg",
+        text: "So was ist einfach nur peinlich von gewissen anderen Fraktionen! ✊",
     },
     {
-        name: "Not a bot 4",
-        img: "/img/profilepic.png",
-        text:
-            "Bla bla bla bla bla bla bla bla bla ICH bla bla bla bla. Bla bla bla bla bla bla bla bla bla ICH bla bla bla bla.",
+        name: "Leah Holzman",
+        img: "/img/profilepic5.png",
+        text: "Vorbildlichst, so fühlt man sich als Studierender bestmöglich vertreten 👏😎!",
     },
     {
-        name: "Not a bot 5",
-        img: "/img/profilepic.png",
-        text:
-            "Bla bla bla bla bla bla bla bla bla ICH bla bla bla bla. Bla bla bla bla bla bla bla bla bla ICH bla bla bla bla.",
+        name: "Markus Schweizer",
+        img: "/img/profilepic6.png",
+        text: "Super geschrieben 😍👏",
+    },
+    {
+        name: "Ralf Maier",
+        img: "/img/profilepic7.png",
+        text: "Mega cool 🤩👍",
+    },
+    {
+        name: "Katrin Wulf",
+        img: "/img/profilepic3.jpg",
+        text: "So solls sein! 🧡",
     },
 ];
 

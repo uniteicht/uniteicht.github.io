@@ -41,3 +41,16 @@ Denke daran, dass die Pull-Requests ebenfalls öffentlich einsehbar sind, und du
 Einige Tage vor Beginn der Osterferien flatterte ein Werbeflyer bei meiner WG-Tür herein. "Frohe Ostern wünscht dir deine AG" stand darauf geschrieben. Die durchgehende Großschreibung - wie auf dem Original - erspare ich deinen müden Augen hier. "Hier kann es sich nur um eine Verwechslung handeln", dachte ich, hatte doch die AG nur wenige Tage zuvor (15.03.2021) auf Instagram folgenden Text veröffentlicht: "Während andere Fraktionen schon mitten im ÖH-Wahlkampf sind, hat für uns als AG das Krisenmanagement in der ÖH JKU Priorität! [...]".
 
 Um der Sache auf den Grund zu gehen, suchte ich den Flyer verzweifelt nach einem Impressum ab und fand am unteren Rand der Vorderseite die Angabe "uniteicht.at". Sofort rief ich die Seite auf, um den Herausgeber des Flyers kennenzulernen, wo ich jedoch prompt enttäuscht wurde. Die Seite exisierte nicht. Als Mensch, der immer an das Gute glaubt, wollte ich meinen Nächsten diese tragische Erfahrung ersparen, und startete die Website [uniteicht.at](https://uniteicht.at).
+
+---
+
+## Credits
+* Kommentar-Profilbilder generiert von [https://generated.photos/](https://generated.photos/)
+* Profilnamen sind von [https://de.fakenamegenerator.com](https://de.fakenamegenerator.com)
+* Icon <img src="./static/img/up-arrow.svg" width="20" height="20"/> made by
+[Pixel perfect](https://www.flaticon.com/authors/pixel-perfect) from
+[www.flaticon.com](https://www.flaticon.com/) 
+* Alle anderen Icons sind von [fontawesome.com](https://fontawesome.com)
+
+Vielen Dank an Alle, die bereits an ihrer kreativen Ader geritzt, und so
+viel Herzblut in dieses Projekt gegossen haben.

@@ -21,6 +21,10 @@
 
     <h2>Credits</h2>
     <p>
+      Kommentar-Profilbilder generiert von <a href="https://generated.photos/">https://generated.photos/</a>
+      <br/>
+      Profilnamen sind von <a href="https://de.fakenamegenerator.com">https://de.fakenamegenerator.com</a>
+      <br/>
       Icon (<img class="icon" src="/img/external-link-symbol.svg" />) made by
       <a href="https://www.flaticon.com/authors/dave-gandy" title="Dave Gandy"
         >Dave Gandy</a
@@ -39,20 +43,13 @@
       <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a
       ><br />
 
-      Other icons are from
+      Alle anderen Icons sind von
       <a href="https://fontawesome.com" target="_blank">fontawesome.com</a
       ><br />
       <br />
 
       Vielen Dank an Alle, die bereits an ihrer kreativen Ader geritzt, und so
       viel Herzblut in dieses Projekt gegossen haben.
-
-      <!-- 
-        Erwähnung bitte hier über diesem Kommentar einfügen.
-        Dein Github Benutzername muss mit dem Account übereinstimmen, der den Pull-Request erstellt hat.
-        Beispiel:
-        [M. Muster](github.com/dein-github-benutzername)
-       -->
     </p>
 
     <h2>Webdesign</h2>
