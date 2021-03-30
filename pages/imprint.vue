@@ -21,6 +21,10 @@
 
     <h2>Credits</h2>
     <p>
+      Viele der Inhalte basieren auf jenen von <a href="https://instagram.com/ag.jku.uniteich" target="_blank">instagram.com/ag.jku.uniteich</a>
+      Schaut da unbedingt mal vorbei, die sind mindestens genauso lustig!
+    </p>
+    <p>
       Kommentar-Profilbilder generiert von <a href="https://generated.photos/">https://generated.photos/</a>
       <br/>
       Profilnamen sind von <a href="https://de.fakenamegenerator.com">https://de.fakenamegenerator.com</a>

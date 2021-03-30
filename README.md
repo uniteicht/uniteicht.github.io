@@ -45,6 +45,7 @@ Um der Sache auf den Grund zu gehen, suchte ich den Flyer verzweifelt nach einem
 ---
 
 ## Credits
+* Viele der Inhalte basieren auf jenen von [instagram.com/ag.jku.uniteich](https://instagram.com/ag.jku.uniteich). Schaut da unbedingt mal vorbei, die sind mindestens genauso lustig!
 * Kommentar-Profilbilder generiert von [https://generated.photos/](https://generated.photos/)
 * Profilnamen sind von [https://de.fakenamegenerator.com](https://de.fakenamegenerator.com)
 * Icon <img src="./static/img/up-arrow.svg" width="20" height="20"/> made by
