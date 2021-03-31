@@ -2,7 +2,7 @@
   <div class="mlWrapper">
     <meme
       :image="'OH-Wahlkampf.jpg'"
-      :text="'ÖH-Wahlkampf (wichtige Vertretungsarbeit) statt Covid-Maßnahmen'"
+      :text="'HÖ-Wahlkampf (wichtige Vertretungsarbeit) statt Covid-Maßnahmen'"
     />
 
     <!-- 
