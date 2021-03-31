@@ -3,10 +3,12 @@
     <script>
       function qak() {
         new Audio("qak.mp3").play();
-        document.getElementById("logo").src = "favicon2.png";
         setTimeout(() => {
-          document.getElementById("logo").src = "favicon.ico";
-        }, 400);
+          document.getElementById("logo").src = "favicon2.png";
+          setTimeout(() => {
+            document.getElementById("logo").src = "favicon.ico";
+          }, 400);
+        }, 200);
       }
     </script>
     <span font-size="0.3em">
@@ -26,7 +28,14 @@
           <NuxtLink to="/about">ÜBER UNS</NuxtLink>
         </div>
         <div class="nav">
-          <NuxtLink to="/#content">ERREICHT!</NuxtLink>
+          <NuxtLink to="/#content"
+            ><span
+              onmouseover="this.innerHTML='ERTEICH<b>T</b>'"
+              onmouseout="this.innerHTML='ERREICHT'"
+            >
+              ERREICHT</span
+            >!</NuxtLink
+          >
         </div>
         <div class="nav">
           <NuxtLink to="/card#content">UNITEICHT.CARD</NuxtLink>

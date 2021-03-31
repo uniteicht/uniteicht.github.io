@@ -1,7 +1,7 @@
 <template>
   <div class="meme">
     <img class="meme-img" :src="'/meme/' + image" />
-    <h3 class="meme-desc">Erreicht: {{ text }}</h3>
+    <h3 class="meme-desc">Erreicht: <slot></slot></h3>
     <div class="meme-comment-section">
       <div ref="comments">
         <div v-for="comment in comments" :key="comment.text" class="comment">
@@ -33,13 +33,7 @@ export default {
   props: {
     image: {
       type: String,
-    },
-    text: {
-      type: String,
-      default() {
-        return "sinnvolle Vertreterarbeit!";
-      },
-    },
+    }
   },
   created: function () {
     this.comments.push(
