@@ -16,7 +16,7 @@
 
     <h2>Wie kommst du zu deiner uniteicht.card?</h2>
 
-    Druck einfach diese Seite aus und zeig sie bei unseren Parnern vor.<br>
+    Druck einfach diese Seite aus und zeig sie bei unseren Partnern vor.<br>
     <b>ACHTUNG</b>: FARBIG AUSDRUCKEN!
   </div>
 </template>
