@@ -2,7 +2,7 @@
   <div class="outer">
     <script>
       function qak() {
-        new Audio("qak.mp3").play();
+        new Audio("/qak.mp3").play();
         setTimeout(() => {
           document.getElementById("logo").src = "/favicon2.png";
           setTimeout(() => {
