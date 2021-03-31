@@ -4,9 +4,9 @@
       function qak() {
         new Audio("qak.mp3").play();
         setTimeout(() => {
-          document.getElementById("logo").src = "favicon2.png";
+          document.getElementById("logo").src = "/favicon2.png";
           setTimeout(() => {
-            document.getElementById("logo").src = "favicon.ico";
+            document.getElementById("logo").src = "/favicon.ico";
           }, 400);
         }, 200);
       }

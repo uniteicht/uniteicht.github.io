@@ -1,6 +1,6 @@
 <template>
   <div class="poesie-wrapper">
-    <h1>POSIE ALBUM</h1>
+    <h1>POSIE-ALBUM</h1>
     <p>
       Zum Poesie-Album: Inspiriert von
       <a href="https://www.instagram.com/p/CMXrs8fjT7c/ " target="blank"
@@ -12,12 +12,12 @@
     </p>
 
     <div class="mlWrapper">
-      <meme image="poesie/OffenerBrief_Poesie.png" />
-      <meme image="poesie/OffenerBrief_Blatt.png" />
-      <meme image="poesie/OffenerBrief_Gedanken.png" />
-      <meme image="poesie/OffenerBrief_UniteichtCard.png" />
-      <meme image="poesie/OffenerBrief_Vertretungsarbeit.png" />
-      <meme image="poesie/OffenerBrief_Onlyfans.png" />
+      <meme :achieved="false" image="poesie/OffenerBrief_Poesie.png" />
+      <meme :achieved="false" image="poesie/OffenerBrief_Blatt.png" />
+      <meme :achieved="false" image="poesie/OffenerBrief_Gedanken.png" />
+      <meme :achieved="false" image="poesie/OffenerBrief_UniteichtCard.png" />
+      <meme :achieved="false" image="poesie/OffenerBrief_Vertretungsarbeit.png" />
+      <meme :achieved="false" image="poesie/OffenerBrief_Onlyfans.png" />
     </div>
   </div>
 </template>

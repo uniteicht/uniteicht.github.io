@@ -1,7 +1,7 @@
 <template>
   <div class="meme">
     <img class="meme-img" :src="'/meme/' + image" />
-    <h3 class="meme-desc">Erreicht: <slot></slot></h3>
+    <h3 class="meme-desc"><b v-if="achieved">Erreicht: </b><slot></slot></h3>
     <div class="meme-comment-section">
       <div ref="comments">
         <div v-for="comment in comments" :key="comment.text" class="comment">
@@ -33,6 +33,10 @@ export default {
   props: {
     image: {
       type: String,
+    },
+    achieved: {
+      type: Boolean,
+      default: true
     }
   },
   created: function () {
