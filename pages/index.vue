@@ -1,6 +1,9 @@
 <template>
   <div class="wrapper">
-    <h1>FÜR DICH ERREICHT</h1>
+    <h1>FÜR DICH <span
+   onmouseover="this.innerHTML='ERTEICH<b>T</b>'"
+   onmouseout="this.innerHTML='ERREICHT'">
+ERREICHT</span>!</h1>
     <MemeList />
   </div>
 </template>
