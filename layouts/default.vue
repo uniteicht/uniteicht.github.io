@@ -3,7 +3,7 @@
     <script>
       function qak() {
         new Audio('qak.mp3').play();
-        document.getElementById("logo").src="favicon2.ico";
+        document.getElementById("logo").src="favicon2.png";
         setTimeout(() => {document.getElementById("logo").src="favicon.ico"}, 400);
       }
     </script>
@@ -34,6 +34,9 @@
         </div>
         <div class="nav">
           <NuxtLink to="/card">UNITEICHT.CARD</NuxtLink>
+        </div>
+        <div class="nav">
+          <NuxtLink to="/poesie">POESIE-ALBUM</NuxtLink>
         </div>
         <div class="nav">
           <NuxtLink to="/imprint">Impressum</NuxtLink>
