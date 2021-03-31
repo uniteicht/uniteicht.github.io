@@ -2,16 +2,19 @@
   <div class="outer">
     <script>
       function qak() {
-        new Audio('qak.mp3').play();
-        document.getElementById("logo").src="favicon2.png";
-        setTimeout(() => {document.getElementById("logo").src="favicon.ico"}, 400);
+        new Audio("qak.mp3").play();
+        document.getElementById("logo").src = "favicon2.png";
+        setTimeout(() => {
+          document.getElementById("logo").src = "favicon.ico";
+        }, 400);
       }
     </script>
     <span font-size="0.3em">
       ACHTUNG: Es handelt sich bei dieser Seite <i>NICHT</i> um den
       <a href="https://uniteich.at" target="_blank"
-      >Webauftritt der <i>AktionsGemeinschaft-Linz</i> <i class="fas fa-external-link-alt"></i></a
-      >!<br>
+        >Webauftritt der <i>AktionsGemeinschaft-Linz</i>
+        <i class="fas fa-external-link-alt"></i></a
+      >!<br />
       Die haben uns einfach abgekupfert, jegliche Ähnlichkeiten sind also rein
       zufällig. Viel mehr handelt es sich hier um wichtige
       Vertretungsarbeit!!1einself
@@ -25,51 +28,76 @@
         <div class="nav">
           <a
             href="https://github.com/uniteicht/uniteicht.github.io"
-            target="_blank">
-            MITMA<wbr><span style="white-space: nowrap;">CHEN <i class="fas fa-external-link-alt"></i></span>
+            target="_blank"
+          >
+            MITMA<wbr /><span style="white-space: nowrap"
+              >CHEN <i class="fas fa-external-link-alt"></i
+            ></span>
           </a>
         </div>
         <div class="nav">
-          <NuxtLink to="/">ERREICHT!</NuxtLink>
+          <NuxtLink to="/#content">ERREICHT!</NuxtLink>
         </div>
         <div class="nav">
-          <NuxtLink to="/card">UNITEICHT.CARD</NuxtLink>
+          <NuxtLink to="/card#content">UNITEICHT.CARD</NuxtLink>
         </div>
         <div class="nav">
-          <NuxtLink to="/poesie">POESIE-ALBUM</NuxtLink>
+          <NuxtLink to="/poesie#content">POESIE-ALBUM</NuxtLink>
         </div>
         <div class="nav">
-          <NuxtLink to="/imprint">Impressum</NuxtLink>
+          <NuxtLink to="/imprint#content">Impressum</NuxtLink>
         </div>
 
         <div class="imprint">
           <div class="wr-social">
             <div>
-            <a href="https://onlyfans.com/u128981358" target="_blank" title="Onlyfans"><img
-              class="social onlyfans-logo" src="/img/OnlyFans_Social_Icon_Rounded_Blue.svg"/></a>
+              <a
+                href="https://onlyfans.com/u128981358"
+                target="_blank"
+                title="Onlyfans"
+                ><img
+                  class="social onlyfans-logo"
+                  src="/img/OnlyFans_Social_Icon_Rounded_Blue.svg"
+              /></a>
             </div>
 
-          <div>
-            <a href="https://anastory.tumblr.com/" target="_blank" title="Tumblr"><i
-              class="fab fa-tumblr social"></i></a>
-          </div>
+            <div>
+              <a
+                href="https://anastory.tumblr.com/"
+                target="_blank"
+                title="Tumblr"
+                ><i class="fab fa-tumblr social"></i
+              ></a>
+            </div>
+
+            <div class="even-bigger">
+              <a
+                href="https://github.com/uniteicht/uniteicht.github.io"
+                target="_blank"
+                title="Github"
+                ><i class="fab fa-github-square"></i
+              ></a>
+            </div>
 
             <div class="bigger">
-              <a href="https://www.instagram.com/tag.jku.uniteicht/" target="_blank" title="Insta"><i
-              class="fab fa-instagram social"></i></a>
+              <a
+                href="https://www.instagram.com/tag.jku.uniteicht/"
+                target="_blank"
+                title="Insta"
+                ><i class="fab fa-instagram social"></i
+              ></a>
             </div>
           </div>
         </div>
       </div>
-      <div class="center">
-        <Nuxt/>
+      <div class="center" id="content">
+        <Nuxt />
       </div>
     </div>
   </div>
 </template>
 
 <style>
-
 html,
 body,
 .outer,
@@ -170,6 +198,12 @@ a:hover {
   margin-top: -0.1em;
 }
 
+.even-bigger {
+  font-size: 1.7em;
+  margin-top: -0.26em;
+  margin-left: 0.1em;
+}
+
 .imprint,
 .nav {
   cursor: pointer;
@@ -212,5 +246,4 @@ a:hover {
     margin-left: 2.5%;
   }
 }
-
 </style>

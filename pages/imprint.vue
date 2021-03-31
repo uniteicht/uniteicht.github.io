@@ -67,6 +67,6 @@ export default {};
 <style>
 .wr-imprint {
   padding-top: 2em;
-  font-size: large;
+  font-size: medium;
 }
 </style>
