@@ -26,16 +26,6 @@
           <NuxtLink to="/about">ÜBER UNS</NuxtLink>
         </div>
         <div class="nav">
-          <a
-            href="https://github.com/uniteicht/uniteicht.github.io"
-            target="_blank"
-          >
-            MITMA<wbr /><span style="white-space: nowrap"
-              >CHEN <i class="fas fa-external-link-alt"></i
-            ></span>
-          </a>
-        </div>
-        <div class="nav">
           <NuxtLink to="/#content">ERREICHT!</NuxtLink>
         </div>
         <div class="nav">
