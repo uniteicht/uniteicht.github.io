@@ -1,6 +1,6 @@
 <template>
   <div class="wrapper">
-    <h1>FÜR DICH ERREICHT</h1>
+    <h1>FÜR DICH EREICHT</h1>
     <MemeList />
   </div>
 </template>
@@ -24,12 +24,11 @@ export default {
 .wrapper {
   width: 100%;
   height: 100%;
-  margin: 0;
-  padding: 0;
-  padding-left: 10px;
+  margin: auto;
 }
 
 h1 {
   color: black;
+  padding: 1em;
 }
 </style>

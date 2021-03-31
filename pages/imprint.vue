@@ -1,5 +1,5 @@
 <template>
-  <div class="wr-imprint">
+  <div class="wr-imprint wrapper">
     <h2>Herausgeber und Medieninhaber dieser Satireseite:</h2>
     <p>
       Jakob Wögerbauer<br />
@@ -66,6 +66,7 @@ export default {};
 
 <style>
 .wr-imprint {
+  padding-top: 2em;
   font-size: large;
 }
 </style>

@@ -36,9 +36,7 @@ export default {};
 }
 
 .wrapper {
-  margin: 0;
-  padding-left: 10px;
-  padding-right: 10px;
+  margin: auto;
 }
 
 h1 {
@@ -49,9 +47,7 @@ h1 {
   .wrapper {
     width: 80%;
     height: 100%;
-    margin: 0;
-    padding: 0;
-    padding-left: 10px;
+    margin: auto;
     font-size: x-large;
   }
 }

@@ -1,26 +1,33 @@
 <template>
   <div class="outer">
-    <h3>
+    <script>
+      function qak() {
+        new Audio('qak.mp3').play();
+        document.getElementById("logo").src="favicon2.ico";
+        setTimeout(() => {document.getElementById("logo").src="favicon.ico"}, 400);
+      }
+    </script>
+    <span font-size="0.3em">
       ACHTUNG: Es handelt sich bei dieser Seite <i>NICHT</i> um den
       <a href="https://uniteich.at" target="_blank"
       >Webauftritt der <i>AktionsGemeinschaft-Linz</i> <i class="fas fa-external-link-alt"></i></a
-      >! <br/>
+      >!<br>
       Die haben uns einfach abgekupfert, jegliche Ähnlichkeiten sind also rein
       zufällig. Viel mehr handelt es sich hier um wichtige
       Vertretungsarbeit!!1einself
-    </h3>
-    <div class="global_wrapper">
+    </span>
+    <div class="global_wrapper" onclick="qak()">
       <div class="sidebar">
-        <NuxtLink to="/"><img id="logo" src="/favicon.ico" style="width: 250px"/></NuxtLink>
+        <a onClick="qak()"><img id="logo" src="/favicon.ico" /></a>
         <div class="nav">
           <NuxtLink to="/about">ÜBER UNS</NuxtLink>
         </div>
         <div class="nav">
           <a
             href="https://github.com/uniteicht/uniteicht.github.io"
-            target="_blank"
-          >MITMACHEN <i class="fas fa-external-link-alt"></i></a
-          >
+            target="_blank">
+            MITMA<wbr><span style="white-space: nowrap;">CHEN <i class="fas fa-external-link-alt"></i></span>
+          </a>
         </div>
         <div class="nav">
           <NuxtLink to="/">ERREICHT!</NuxtLink>
@@ -29,22 +36,26 @@
           <NuxtLink to="/card">UNITEICHT.CARD</NuxtLink>
         </div>
         <div class="nav">
-          <a href="https://anastory.tumblr.com/" target="_blank">BLOG <i class="fas fa-external-link-alt"></i></a>
+          <NuxtLink to="/imprint">Impressum</NuxtLink>
         </div>
 
         <div class="imprint">
           <div class="wr-social">
-            <a href="https://onlyfans.com/u128981358" target="_blank"><img
-              src="/img/OnlyFans_Social_Icon_Rounded_Blue.svg" class="social onlyfans-logo" /></a>
-            <a href="https://anastory.tumblr.com/" target="_blank"><i
-               class="fab fa-tumblr social"></i></a>
-            <a href="https://www.instagram.com/tag.jku.uniteicht/" target="_blank"><i
-              class="fab fa-instagram social"></i></a>
-             
-              
+            <div>
+            <a href="https://onlyfans.com/u128981358" target="_blank" title="Onlyfans"><img
+              class="social onlyfans-logo" src="/img/OnlyFans_Social_Icon_Rounded_Blue.svg"/></a>
+            </div>
+
+          <div>
+            <a href="https://anastory.tumblr.com/" target="_blank" title="Tumblr"><i
+              class="fab fa-tumblr social"></i></a>
           </div>
-          <NuxtLink to="/imprint">Credits</NuxtLink>
-          <NuxtLink to="/imprint">Impressum</NuxtLink>
+
+            <div class="bigger">
+              <a href="https://www.instagram.com/tag.jku.uniteicht/" target="_blank" title="Insta"><i
+              class="fab fa-instagram social"></i></a>
+            </div>
+          </div>
         </div>
       </div>
       <div class="center">
@@ -65,8 +76,7 @@ body,
 }
 
 .social {
-  font-weight: 400;
-  font-size: 4em;
+  font-size: 1.5em;
 }
 
 .onlyfans-logo {
@@ -84,37 +94,6 @@ a:hover {
   color: #f26f22;
   text-decoration: none;
   font-weight: bold;
-}
-
-
-.wr-social {
-  float: right;
-}
-
-.icon {
-  height: 1rem;
-  margin-top: -8px;
-  margin-right: 5px;
-}
-
-.global_wrapper {
-  height: 100%;
-  background-color: #f26f22;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  background-color: white;
-}
-
-.sidebar {
-  background-color: #ededed;
-  width: 20%;
-  min-width: 360px;
-  height: auto;
-  float: left;
-  padding: 10px;
-}
-
-.center {
-  padding-top: 100px;
 }
 
 .nav {
@@ -136,78 +115,87 @@ a:hover {
 }
 
 #logo {
+  width: 100%;
   display: block;
   margin-left: auto;
   margin-right: auto;
+  float: right;
 }
 
+.wr-social {
+  display: flex;
+  justify-content: space-between;
+}
 
-@media only screen and (min-width: 768px) {
-  .wr-social {
-    float: right;
-  }
+.imprint {
+  display: block;
+  padding-right: 20px;
+}
 
-  .imprint {
-    display: block;
-    padding-right: 20px;
-  }
+.imprint a {
+  display: block;
+}
 
-  .imprint a {
-    display: block;
-  }
+.icon {
+  height: 1rem;
+  margin-top: -8px;
+  margin-right: 5px;
+}
 
-  .icon {
-    height: 1rem;
-    margin-top: -8px;
-    margin-right: 5px;
-  }
+.global_wrapper {
+  height: 100%;
+  background-color: #f26f22;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: white;
+}
 
-  .global_wrapper {
-    height: 100%;
-    background-color: #f26f22;
-    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-    background-color: white;
-  }
+.sidebar {
+  background-color: #ededed;
+  width: 20%;
+  float: left;
+  padding: 10px;
+}
 
-  .sidebar {
-    background-color: #ededed;
-    width: 20%;
-    min-width: 360px;
-    float: left;
-    padding: 10px;
-  }
+.center {
+  height: auto;
+  float: left;
+  width: 80%;
+}
 
-  .center {
-    height: auto;
-    float: left;
-    width: 70%;
-    padding-top: 100px;
-    padding-left: 200px;
-  }
+.bigger {
+  font-size: 1.2em;
+  margin-top: -0.1em;
+}
 
+.imprint,
+.nav {
+  cursor: pointer;
+  font-size: 35px;
+  text-align: right;
+  padding-right: 20px;
+  margin: 10px;
+  clear: both;
+  display: block;
+}
+
+.nav a {
+  width: 100%;
+  text-align: right;
+}
+
+@media screen and (max-width: 1200px) {
+  .imprint,
   .nav {
-    cursor: pointer;
-    font-size: 35px;
-    text-align: right;
-    padding-right: 20px;
-    margin: 10px;
-    clear: both;
-    display: block;
-  }
-
-  .nav a {
-    width: 100%;
-    text-align: right;
-  }
-
-
-
-  #logo {
-    float: right;
+    font-size: 25px;
   }
 }
 
-
+@media screen and (max-width: 800px) {
+  .imprint,
+  .nav {
+    font-size: 18px;
+  }
+}
 
 
 </style>

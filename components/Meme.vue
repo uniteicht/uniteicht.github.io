@@ -3,14 +3,9 @@
     <img class="meme-img" :src="'/meme/' + image" />
     <h3 class="meme-desc">Erreicht: {{ text }}</h3>
     <div class="meme-comment-section">
-      <div ref="comments" class="hidden">
-        <div class="comment-close" @click="onClose()">
-          <img class="icon" src="/img/up-arrow.svg" />
-          Schließen
-          <img class="icon" src="/img/up-arrow.svg" />
-        </div>
+      <div ref="comments">
         <div v-for="comment in comments" :key="comment.text" class="comment">
-          <img :src="comment.img" /> {{ comment.name }}: {{ comment.text }}
+          <img :src="comment.img" /> <b>{{ comment.name }}:</b> {{ comment.text }}
         </div>
         <span ref="deleted" class="delete-msg hidden"
           >Hario Mofer hat deinen Kommentar gelöscht. Begründung: "Deine Meinung
@@ -68,11 +63,7 @@ export default {
       this.$refs.comments.classList.remove("hidden");
       this.disabled = false;
     },
-    onClose() {
-      this.$refs.comments.classList.add("hidden");
-    },
-    sendCommant() {
-      this.$refs.comments.classList.remove("hidden");
+        sendCommant() {
       this.$refs.deleted.classList.remove("hidden");
     },
     isDisabled() {
