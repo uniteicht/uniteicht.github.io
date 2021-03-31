@@ -200,5 +200,17 @@ a:hover {
   }
 }
 
+@media screen and (max-width: 600px) {
+  .sidebar {
+    width: 100%;
+  }
+  .nav {
+    font-size: 35px;
+  }
+  .center {
+    width: 95%;
+    margin-left: 2.5%;
+  }
+}
 
 </style>
