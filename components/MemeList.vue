@@ -7,7 +7,7 @@
       <a href="https://onlyfans.com/u128981358\" target="_blank"
         >Onlyfans-Account</a
       >
-      unterstützen! Einfach die uniteicht.card von uniteicht.at ausdrucken, der
+      unterstützen! Einfach die <NuxtLink to="/card#content">uniteicht.card</NuxtLink> von <NuxtLink to="/#content">uniteicht.at</NuxtLink> ausdrucken, der
       Mitgliedsbeitrag wird dann automatisch abgebucht.
     </meme>
     <meme image="OH-Wahlkampf.jpg">
