@@ -1,6 +1,6 @@
 <template>
   <div class="mlWrapper">
-    <meme image="onlyfans.png">
+    <!--meme image="onlyfans.png">
       Als TAG wollen wir uns nicht mehr länger mit Sponsorings und Parteispenden
       finanzieren, das war unter unserer Würde. Stattdessen kriegt ihr jetzt
       auch etwas für euer Geld und könnt die TAG über unseren
@@ -9,7 +9,7 @@
       >
       unterstützen! Einfach die <NuxtLink to="/card#content">uniteicht.card</NuxtLink> von <NuxtLink to="/#content">uniteicht.at</NuxtLink> ausdrucken, der
       Mitgliedsbeitrag wird dann automatisch abgebucht.
-    </meme>
+    </meme-->
     <meme image="OH-Wahlkampf.jpg">
       HÖ-Wahlkampf (wichtige Vertretungsarbeit) statt Covid-Maßnahmen
     </meme>
