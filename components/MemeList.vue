@@ -10,6 +10,9 @@
       unterstützen! Einfach die <NuxtLink to="/card#content">uniteicht.card</NuxtLink> von <NuxtLink to="/#content">uniteicht.at</NuxtLink> ausdrucken, der
       Mitgliedsbeitrag wird dann automatisch abgebucht.
     </meme-->
+    <meme image="UnialltagAufDenKopfGestellt.png">
+      Spiderschwein?
+    </meme>
     <meme image="OH-Wahlkampf.jpg">
       HÖ-Wahlkampf (wichtige Vertretungsarbeit) statt Covid-Maßnahmen
     </meme>
