@@ -1,6 +1,6 @@
 <template>
   <div class="poesie-wrapper">
-    <h1>POSIE-ALBUM</h1>
+    <h1>POESIE-ALBUM</h1>
     <p>
       Zum Poesie-Album: Inspiriert von
       <a href="https://www.instagram.com/p/CMXrs8fjT7c/ " target="blank"
