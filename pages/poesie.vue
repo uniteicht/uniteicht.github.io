@@ -12,6 +12,7 @@
     </p>
 
     <div class="mlWrapper">
+      <meme :achieved="false" image="poesie/OffenerBrief_Unabhaengig.png" />
       <meme :achieved="false" image="poesie/OffenerBrief_Poesie.png" />
       <meme :achieved="false" image="poesie/OffenerBrief_Newsletter.png" />
       <meme :achieved="false" image="poesie/OffenerBrief_Blatt.png" />
