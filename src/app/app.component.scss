@@ -1,0 +1,49 @@
+/* app.component.scss */
+@import '../variables';
+
+.navbar-brand {
+  color: $color-primary;
+  padding: 15px;
+}
+
+.navbar-collapse {
+  background-color: $color-accent;
+}
+
+.navbar {
+  height: 60px;
+  color: $color-primary;
+  background-color: $color-accent;
+  padding: 0;
+  
+  .nav-link {
+    color: $color-primary;
+    padding-left: 15px;
+  }
+    
+  .nav-link {
+    font-size: 16px;
+  }
+  
+  .col-md-9 {
+    height: 100%;
+  }
+  
+  .col-md-9 > router-outlet {
+    padding: 20px;
+  }
+  
+  h1, h2, h3, h4, h5, h6, p {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+
+  .navbar-toggler {
+    margin-right: 15px;
+    border-color: $color-primary;
+  }
+}
+
+.page-content {
+  padding-top: 15px;
+}
