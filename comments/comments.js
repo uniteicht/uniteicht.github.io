@@ -1,16 +1,16 @@
 const hmCommentEntries = [{
-  name: "Hario Mofer",
-  img: "/img/Hario_Mofer.png",
+  name: "Fanessa Vuchs",
+  img: "/favicon.ico",
   text: "Das hab ICH aber gut gemacht.",
 },
   {
-    name: "Hario Mofer",
-    img: "/img/Hario_Mofer.png",
+    name: "Fanessa Vuchs",
+    img: "/favicon.ico",
     text: "Gute arbeit ICH.",
   },
   {
-    name: "Hario Mofer",
-    img: "/img/Hario_Mofer.png",
+    name: "Fanessa Vuchs",
+    img: "/favicon.ico",
     text: "ICH bin immer wieder von mir überzeugt.",
   },
 ];
@@ -20,14 +20,10 @@ Random name generator: https://de.fakenamegenerator.com/gen-random-gr-as.php
 Profile pictures by https://generated.photos/
 */
 const commentEntries = [{
-  name: "Buliane Jumgarner",
-  img: "/img/profilepic1.png",
-  text: "Großartig gedichtet😍",
-}, {
   name: "Hulrike Erz",
   img: "/img/profilepic2.png",
   text: "So gehörts! 🙌",
-},
+  },
   {
     name: "Kario Mönig",
     img: "/img/profilepic3.jpg",
