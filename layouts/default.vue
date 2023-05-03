@@ -41,25 +41,11 @@
           <NuxtLink to="/card#content">UNITEICHT.CARD</NuxtLink>
         </div>
         <div class="nav">
-          <NuxtLink to="/poesie#content">POESIE-ALBUM</NuxtLink>
-        </div>
-        <div class="nav">
           <NuxtLink to="/imprint#content">Impressum</NuxtLink>
         </div>
 
         <div class="imprint">
           <div class="wr-social">
-            <div>
-              <a
-                href="https://onlyfans.com/u128981358"
-                target="_blank"
-                title="Onlyfans"
-                ><img
-                  class="social onlyfans-logo"
-                  src="/img/OnlyFans_Social_Icon_Rounded_Blue.svg"
-              /></a>
-            </div>
-
             <div>
               <a
                 href="https://anastory.tumblr.com/"
@@ -107,6 +93,8 @@ body,
 
 .social {
   font-size: 1.5em;
+  margin-left: 30px;
+  margin-right: 30px;
 }
 
 .onlyfans-logo {

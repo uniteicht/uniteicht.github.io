@@ -4,7 +4,7 @@ Seite ist erreichbar unter [https://uniteicht.at](https://uniteicht.at)
 
 ## Du willst auch sinnvolle Vertretungsarbeit leisten?
 ### Memes erstellen oder die Website verbessern
-1. Projekt forken und herunterladen, ```npm i```, ```npm run dev```
+1. Projekt forken und herunterladen, ```npm i```, ```NODE_OPTIONS=--openssl-legacy-provider npm run dev```
 1. Kreativ werden!
 1. Befehl ```npm run commit``` ausführen. Dieser kombiniert git add, git commit und git push mit der einzig korrekten Commit-Message
 1. Pull-Request auf github erstellen
@@ -12,6 +12,19 @@ Seite ist erreichbar unter [https://uniteicht.at](https://uniteicht.at)
 1. Profit!
 
 ---
+
+# Wahljahr 2023
+
+## Fanessa Vuchs
+Wie auch die ÖH-Fraktionen bleiben auch wir unseren Traditionen treu. In diesem Fall der Namensgebung der Hauptfigur.
+
+
+
+
+
+
+# Wahljahr 2021
+
 
 ## Hario Mofer
 (Kunstfigur, Ähnlichkeiten mit lebenden Personen sind rein zufällig)

@@ -8,8 +8,8 @@
           <img :src="comment.img" /> <b>{{ comment.name }}:</b> {{ comment.text }}
         </div>
         <span ref="deleted" class="delete-msg hidden"
-          >Hario Mofer hat deinen Kommentar gelöscht. Begründung: "Deine Meinung
-          ist uns den Serverspeicher nicht wert."
+          >Fanessa hat deinen Kommentar gelöscht. Begründung: "Deine Meinung
+          ist mir den Serverspeicher nicht wert."
         </span>
       </div>
 

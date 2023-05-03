@@ -1,8 +1,9 @@
 <template>
   <div class="wrapper">
-    <h1>DIE TAKTIONSGEMEINSCHAFT</h1>
-    <h2>FÜR MEHR TAKT IM LEBEN</h2>
-    <img src="/img/WerWirSind.png" width="80%" />
+    <h1>Mein Team</h1>
+    <h2>Ihr, liebe Fangemeinde, und ICH (Fanessa)!</h2>
+    <img src="/img/about.png" width="80%" />
+    <p>(Symbolbild)</p>
   </div>
 </template>
 

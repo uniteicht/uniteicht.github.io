@@ -12,6 +12,8 @@ ERREICHT</span>!</h1>
 </style>
 
 <script>
+import MemeList from '../components/MemeList.vue';
+
 export default {
   middleware({ redirect }) {
     const ls = window.localStorage;
@@ -20,6 +22,9 @@ export default {
       return redirect("/about");
     }
   },
+  components: {
+    MemeList
+  }
 };
 </script>
 

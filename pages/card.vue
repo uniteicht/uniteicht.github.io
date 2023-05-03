@@ -7,7 +7,7 @@
     <ol>
       <li> Preisaufschläge bei all unseren zahlreichen <a href="https://www.instagram.com/p/CErF8XkjGYK/">professionellen Partnern</a> </li>
       <li> Weniger Platz im Geldtascherl </li>
-      <li> Und viele weitere <a href="http://www.5z8.info/worm_u4b2xw_bombbuilding">Nachteile</a>!!!! </li>
+      <li> Und viele weitere Nachteile!!!! </li>
     </ol>
 
     <h2>Wo kannst du deine uniteicht.card nutzen?</h2>

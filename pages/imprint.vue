@@ -3,13 +3,13 @@
     <h2>Herausgeber und Medieninhaber dieser Satireseite:</h2>
     <p>
       Jakob Wögerbauer<br />
-      Mengerstraße 23/503<br />
+      Mengerstraße 23/502-3<br />
       4040 Linz
     </p>
 
     <p>
       E-Mail:
-      <a href="mailto:hario.mofer@uniteicht.at">hario.mofer@uniteicht.at</a>
+      <a href="mailto:jakob.woegerbauer@gmx.at">jakob.woegerbauer@gmx.at</a>
     </p>
     <p>
       Details und die Entstehungsgeschichte zu dieser Website findest du auf der
